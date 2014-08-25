@@ -1,0 +1,32 @@
+﻿Compilación iniciada a las 25/08/2014 10:01:54 a. m..
+     1>Proyecto "C:\Users\Santiago\Desktop\Semestre 8\Optimizacion Matematica\Algoritmos\BusquedaEnTresPuntos\BusquedaEnTresPuntos\BusquedaEnTresPuntos.vcxproj" en el nodo 2 (Build destinos).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /I. /FIcuda_runtime.h /c "C:\Users\Santiago\Desktop\Semestre 8\Optimizacion Matematica\Algoritmos\BusquedaEnTresPuntos\BusquedaEnTresPuntos\kernel.cu" 
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Santiago\AppData\Local\Temp\tmpe5e3c6a032044b1abeef3d122262490a.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "C:\Users\Santiago\Desktop\Semestre 8\Optimizacion Matematica\Algoritmos\BusquedaEnTresPuntos\BusquedaEnTresPuntos\kernel.cu"
+         
+         C:\Users\Santiago\Desktop\Semestre 8\Optimizacion Matematica\Algoritmos\BusquedaEnTresPuntos\BusquedaEnTresPuntos>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "C:\Users\Santiago\Desktop\Semestre 8\Optimizacion Matematica\Algoritmos\BusquedaEnTresPuntos\BusquedaEnTresPuntos\kernel.cu" 
+         kernel.cu
+     1>C:/Users/Santiago/Desktop/Semestre 8/Optimizacion Matematica/Algoritmos/BusquedaEnTresPuntos/BusquedaEnTresPuntos/kernel.cu(92): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>C:/Users/Santiago/Desktop/Semestre 8/Optimizacion Matematica/Algoritmos/BusquedaEnTresPuntos/BusquedaEnTresPuntos/kernel.cu(93): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>C:/Users/Santiago/Desktop/Semestre 8/Optimizacion Matematica/Algoritmos/BusquedaEnTresPuntos/BusquedaEnTresPuntos/kernel.cu(96): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>C:/Users/Santiago/Desktop/Semestre 8/Optimizacion Matematica/Algoritmos/BusquedaEnTresPuntos/BusquedaEnTresPuntos/kernel.cu(97): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>C:/Users/Santiago/Desktop/Semestre 8/Optimizacion Matematica/Algoritmos/BusquedaEnTresPuntos/BusquedaEnTresPuntos/kernel.cu(98): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Santiago\Desktop\Semestre 8\Optimizacion Matematica\Algoritmos\BusquedaEnTresPuntos\Debug\BusquedaEnTresPuntos.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Santiago\Desktop\Semestre 8\Optimizacion Matematica\Algoritmos\BusquedaEnTresPuntos\Debug\BusquedaEnTresPuntos.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Santiago\Desktop\Semestre 8\Optimizacion Matematica\Algoritmos\BusquedaEnTresPuntos\Debug\BusquedaEnTresPuntos.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         BusquedaEnTresPuntos.vcxproj -> C:\Users\Santiago\Desktop\Semestre 8\Optimizacion Matematica\Algoritmos\BusquedaEnTresPuntos\Debug\BusquedaEnTresPuntos.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "C:\Users\Santiago\Desktop\Semestre 8\Optimizacion Matematica\Algoritmos\BusquedaEnTresPuntos\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "C:\Users\Santiago\Desktop\Semestre 8\Optimizacion Matematica\Algoritmos\BusquedaEnTresPuntos\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "C:\Users\Santiago\Desktop\Semestre 8\Optimizacion Matematica\Algoritmos\BusquedaEnTresPuntos\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart32_65.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart64_65.dll
+                 2 archivo(s) copiado(s).
+     1>Compilación del proyecto terminada "C:\Users\Santiago\Desktop\Semestre 8\Optimizacion Matematica\Algoritmos\BusquedaEnTresPuntos\BusquedaEnTresPuntos\BusquedaEnTresPuntos.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:10.89
